@@ -1,0 +1,13 @@
+main {
+  times = 0;
+  result = 0;
+  while(num < 100) {
+      while(times < 100) {
+      result = result + num;
+      times = times + 1;
+    }
+times = 0;
+output(result)
+num = num + 1;
+    }
+}
